@@ -15,12 +15,11 @@ npm install --save antaeus.components.piechart
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'antaeus.components.piechart'
-import 'antaeus.components.piechart/dist/index.css'
+import PieChartComponent from 'antaeus.components.piechart'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <PieChartComponent label1="Blocked: " value1="2517.5" label2="Withdrawable: " value2="18714.37" postfix="€" />
   }
 }
 ```

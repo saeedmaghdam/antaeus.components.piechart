@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { PieChartComponent } from '.'
 
-describe('ExampleComponent', () => {
+describe('PieChartComponent', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(PieChartComponent).toBeTruthy()
   })
 })

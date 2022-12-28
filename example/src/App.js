@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { ExampleComponent } from 'antaeus.components.piechart'
-import 'antaeus.components.piechart/dist/index.css'
+import { PieChartComponent } from 'antaeus.components.piechart'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <PieChartComponent label1="Blocked: " value1="2517.5" label2="Withdrawable: " value2="18714.37" postfix="€" />
 }
 
 export default App
